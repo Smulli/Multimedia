@@ -1,0 +1,5 @@
+instalar vue cli: https://cli.vuejs.org/guide/installation.html
+crear proyecto de vue: https://cli.vuejs.org/guide/creating-a-project.html
+elegir una plantilla
+cd en la carpeta del proyecto hecho en vue
+npm run serve

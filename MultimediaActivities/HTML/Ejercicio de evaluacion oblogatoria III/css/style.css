@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --margin-flex: 50px;
+    --margin-right: 1cm;
+    --margin-left: 1cm;
+    --padding-flex: 10px;
+    --padding: 30px;
+    --font-s: 15px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: var(--font-s);
+    justify-content: center;
+    text-align: center;
+    margin-top: 5cm;
+}
+
+#maincontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: brown;
+    width: 90%;
+    margin-inline-start: var(--margin-flex);
+    margin-inline-end: var(--margin-flex);
+}
+#maincontent > div {
+    display: inherit;
+    justify-content: space-around;
+    width: 20%;
+    flex-direction: column;
+    padding: var(--padding-flex);
+}
+
+h1 {
+    height: 50%;
+}
+
+p {
+    height: 50%;
+}

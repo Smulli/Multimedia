@@ -1,0 +1,14 @@
+
+Todos los archivos incluidos en Trabajos.zip son propiedad de:
+ 
+	Adobe Systems Incorporated; 	
+	Autodesk, Inc; 
+	Corel Corporation; 
+	Inprise Corporation; 
+	Macromedia, Inc;
+	MEV Verlag GmbH; 	
+	Microsoft Corporation 
+	y CAE, S.A.
+
+Está limitado su uso a la realización de las prácticas correspondientes al curso que se esté realizando. 
+Se prohíbe cualquier otro uso distinto al indicado, incluyéndose su distribución mediante cualquier método.

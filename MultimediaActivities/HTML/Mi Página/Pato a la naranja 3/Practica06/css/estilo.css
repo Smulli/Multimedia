@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+a {
+	color: #060;
+	text-decoration: none;
+}
+body {
+	background-color: #9C9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #000;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.header {
+	padding: 5px;
+}
+
+.content {
+	padding: 5px;
+}
+
+#ingredientes h2 {
+	color: #090;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#preparacion h2 {
+	color: #090;
+}
+
+#tiempo h2 {
+	color: #090;
+}
+
+#dificultad h2 {
+	color: #090;
+}	
+
+ul {	
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em;	
+	list-style-type: square;	
+	list-style-position: outside;
+	}
+.footer { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.167em;
+	font-weight: bold;
+	line-height: 1.83em;
+	color: #333333;
+	background-color: #CCCCCC;
+	}
+.imagen_receta {
+	background-color:#f2edde;
+	border:1px solid #d1b990;
+	clear:both;
+	display:block;
+	margin:3px auto 9px;
+	padding:5px;
+	}

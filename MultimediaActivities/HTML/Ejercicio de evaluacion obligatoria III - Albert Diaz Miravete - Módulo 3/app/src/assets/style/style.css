@@ -1,0 +1,150 @@
+body {
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.homecontent {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.aboutcontent {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.homecontent > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutcontent > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.aboutcontent img {
+  border-radius: 100%;
+  margin-top: 20px;
+  transform: translate(0, 0);
+  transition: transform 250ms ease-out;
+}
+
+.aboutcontent img:hover {
+  border-radius: 100%;
+  margin-top: 20px;
+  transform: translate(0, -10px);
+  transition: transform 250ms ease-in;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.social > section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.social > section img {
+  border-radius: 20%;
+  margin-top: 2px;
+  transform: translate(0, 0);
+  transition: transform 250ms ease-out;
+}
+
+.social > section img:hover {
+  border-radius: 20%;
+  margin-top: 2px;
+  transform: translate(0, -1px);
+  transition: transform 250ms ease-in;
+  background-color: aqua;
+}
+
+.projectscontent {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.projectscontent > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.homecontent  h1 {
+  height: 10%;
+  text-align: center;
+}
+
+.homecontent p {
+  height: 10%;
+  padding: 0 30%;
+  text-align: center;
+}
+
+.aboutcontent  h1 {
+  height: 10%;
+  text-align: center;
+}
+
+.aboutcontent p {
+  height: 10%;
+  padding: 0 30%;
+  text-align: center;
+}
+
+.projectscontent h1 {
+  height: 10%;
+  text-align: center;
+}
+
+.projectscontent p {
+  height: 10%;
+  padding: 0 30%;
+  text-align: center;
+}
+
+.projectscontent > div > article {
+  height: 130px;
+  text-align: center;
+}
+
+.projectscontent > div > article a {
+  color: rgb(58, 194, 61);
+  text-decoration: underline;
+  height: 10%;
+  text-align: center;
+}
+
+.projectscontent > div > article a:hover {
+  color: rgb(58, 194, 61);
+  font-weight: bold;
+  text-decoration: underline;
+  height: 10%;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+footer {
+  justify-content: left;
+  text-align: left;
+  margin-top: 20px;
+  padding: 5px 0;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  padding: 0 10px;
+  color: rgb(73, 73, 73);
+  font-size: 12px;
+}

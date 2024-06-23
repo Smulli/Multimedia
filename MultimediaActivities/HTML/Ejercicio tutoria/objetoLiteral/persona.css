@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+#dom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: inherit;
+}
+
+button {
+    display: inherit;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: circle;
+}
+
+.hidden {
+    display: none;
+}

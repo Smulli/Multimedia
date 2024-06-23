@@ -1,0 +1,117 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.inputData{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 5%;
+    height: 5%;
+}
+
+.inputData > p {
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.inputData > input {
+    margin-top: 2px;
+}
+
+.inputData > select {
+    margin-top: 2px;
+}
+
+.data {
+    font-size: 15px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.name > h2 {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    column-width: 50%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.age {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30%;
+    text-align: left;
+}
+
+.age > h2 {
+    display: inherit;
+    width: 20%;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30%;
+    text-align: left;
+}
+
+.sex > h2 {
+    display: inherit;
+    width: 20%;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+    text-align: left;
+}
+
+.contact > h2 p {
+    display: inherit;
+    width: 20%;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contact > p {
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+hr {
+    margin-top: -5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+    width: 90%;
+    float: left;
+}

@@ -1,0 +1,31 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000080;
+}
+
+#different {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1em;
+    color: gray;
+}
+
+.independent {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-indent: 30px;
+    line-height: 1.4em;
+}
+
+a:focus a:hover a:active {
+    text-decoration: none;
+}
+
+a:active {
+    font-style: italic;
+}

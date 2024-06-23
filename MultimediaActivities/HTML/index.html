@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS en bloque-->
+    <style>
+        /*Atibuto clase para englobar las propiedades de varios elementos, id para dar propiedades a un solo elemento.*/
+        h2 {
+            color: rgb(50, 255, 47);
+        }
+
+        h3 {
+            color: rgb(50, 255, 47);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        p {
+            color: rgb(50, 255, 47);
+        }
+
+        .paragraph2 p {
+            color: rgb(50, 255, 47);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        #red {
+            color: rgb(50, 255, 47);
+        }
+
+        ol {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Clase de FrontEnd</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="">
+    <!--Elementos en bloque/Elementos en línea-->
+
+    <header>
+        <!--El CSS inline es más especifico y por lo tanto da más importancia que al resto-->
+        <!--CSS INLINE-->
+        <h1 id="start_title" style="color: rgb(50, 255, 47); font-family: Arial, Helvetica, sans-serif">Clase de FrontEnd</h1> <h1>Bloque</h1>
+        <h3 id="second_title">Aprendiendo más HTML</h3>
+        <hgroup>
+            <h1>...</h1>
+            <h2>---</h2>
+            <h3>,,,,</h3>
+        </hgroup>
+    </header>
+    
+    <main>
+        <p id="red">¡¡Hola Mundo!!</p>
+
+        <article class="paragraph2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius itaque officia praesentium officiis mollitia eaque culpa nemo? Quis officia fugiat debitis, nulla sed eaque excepturi quod recusandae iste accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eius itaque officia praesentium officiis mollitia eaque culpa nemo? Quis officia fugiat debitis, nulla sed eaque excepturi quod recusandae iste accusantium.</p>
+        </article>
+        
+        <!--Estas son las listas no enumeradas-->
+        <ul>
+            <li>Esto es un elemento</li>
+            <li>Esto es un elemento</li>
+        </ul>
+
+        <ul>
+            <!--Añade li* y el número de elementos que deseas crear-->
+            <li>Elemento</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+            <li>Elemento</li>
+        </ul>
+        <!--Estas son las listas enumeradas-->
+        <ol>
+            <li>Esto es un elemento</li>
+            <li>Esto es un elemento</li>
+        </ol>
+
+        <!--Etiquetas anchor-->
+        <a href="https://www.google.com/">Enlace de google</a>
+
+        <br>
+
+        <!--Imágenes-->
+        <img id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/B_Osma_85v.jpg/800px-B_Osma_85v.jpg" alt="Imágen de Wikipedia">
+    </main>
+    
+    <div class="margen">
+        <p>Test entre 2 margenes</p>
+    </div>
+
+    <div class="lista">
+        <ol>
+            <li>Elemento de bloque.</li>
+            <li>Elemento de bloque.</li>
+            <li>Elemento de bloque.</li>
+        </ol>
+    </div>
+
+    <footer>
+        Teléfono de contacto: XXX-XXX-XXX
+    </footer>
+</body>
+</html>

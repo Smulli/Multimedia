@@ -1,0 +1,51 @@
+header {
+  margin-top: 20px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+@media (min-width: 820px){
+  header {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+nav {
+  justify-content: center;
+  position: relative;
+  float: right;
+  font-size: 15pt;
+}
+
+nav li {
+  margin-right: 50px;
+  text-decoration: none;
+  line-height: 80px;
+  display: inline-block;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: red;
+  font-weight: bold;
+  transition: color 200ms ease-in;
+  border-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 50px;
+  padding-bottom: 50px;
+}
+
+nav a:focus {
+  color: gray;
+  font-weight: bold;
+}
+
+header img {
+  position: absolute;
+  right: 250mm;
+  top: 1mm;
+}

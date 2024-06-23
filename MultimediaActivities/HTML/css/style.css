@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*Si ponemos el símbolo "*" Todos los elementos de la página implementaran el estilo.*/
+body {
+    background-color: black;
+    background-image: url(https://www.wikihow.com/images_en/thumb/f/f8/Hack-a-Computer-Terminal-in-Fallout-3-Step-8.jpg/v4-460px-Hack-a-Computer-Terminal-in-Fallout-3-Step-8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    list-style: square;
+    color: rgb(50, 255, 47);
+}
+
+h1 {
+    color: rgb(50, 255, 47);
+    text-shadow: rgb(50, 255, 47) 10px 10px 5px
+}
+
+.margen {
+    margin-bottom: 2px;
+}
+
+.lista {
+    margin-top: 3px;
+}
+
+.lista ol {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(50, 255, 47);
+}
+
+#img {
+    width: 550px;
+    height: 440px;
+    border: 4px solid green;
+    border-radius: 1px;
+}

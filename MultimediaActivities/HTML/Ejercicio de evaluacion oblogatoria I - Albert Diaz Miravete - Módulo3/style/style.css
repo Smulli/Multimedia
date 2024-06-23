@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: #131414;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#title, #subtitle, #text {
+    display: block;
+    padding-top: 30px;
+    text-shadow: 5px 0px 3px #000000;
+}
+
+#name {
+    display: block;
+    padding-top: 10px;
+    text-shadow: 5px 0px 3px #000000;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button:active {
+    background-color: black;
+    color: gray;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+img {
+    margin-top: 10px;
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 1px 20px #000000;
+}
